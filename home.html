@@ -57,8 +57,8 @@
           <!-- profile -->
            <div class="profile shadow">
               <img src="./assets/images/user.png" alt="" class="profile-img">
-              <h5 class="profile-text text-center fw-bold">Dipanjan Mukherjee</h5>
-              <p class="text-center profile-text2 text-muted ">dipanjanmukherjee@gmail.com</p>
+              <h5 class="profile-text text-center fw-bold" id="username"></h5>
+              <p class="text-center profile-text2 text-muted " id="useremail"></p>
               </div>
               <!-- number of questions -->
               <div class="container">
@@ -99,7 +99,7 @@
       <div class="col-12 col-sm-12 col-md-12 col-lg-7">
         <div class="container">
        <div class="exam-detils">
-         <h5>General Knowledge Exam</h5>
+         <h5 class="text-uppercase" id="exam"></h5>
         </div>
             <!-- exam box -->
             <div class="card border-0 shadow-lg mt-5">
@@ -215,11 +215,11 @@
       <div class="modal-body">
         <div class="mb-3">
           <label for="exampleFormControlInput2" class="form-label">Name</label>
-          <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Enter your name">
+          <input type="text" class="form-control" id="modalname" placeholder="Enter your name">
         </div>
         <div class="mb-3">
           <label for="exampleFormControlInput1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <input type="email" class="form-control" id="modalemail" placeholder="name@example.com">
         </div>
         <div class="mb-3">
           <label for="exampleFormControlTextarea1" class="form-label">Issue</label>
@@ -243,8 +243,6 @@
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
     crossorigin="anonymous"></script>
     <script src="./assets/js/main.js"></script>
-    <script>
-      
-    </script>
+    <script src="./assets/js/server.js"></script>
 </body>
 </html>
